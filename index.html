@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Book Tracker App</title>
+</head>
+<body>
+    <header>
+        <h1>Book Tracker App</h1>
+    </header>
+
+    <div class="app-container">
+        <section class="search-section">
+            <h2>Search</h2>
+            <div class="d-flex search-bar">
+                <input class="form-control me-2 book-search-input" type="search" placeholder="Enter a Book or Author" aria-label="Search">
+                <button class="btn btn-success book-search-btn">Search</button>
+            </div>
+
+            <div class="search-results-container">
+                <h4>Search Results</h4>
+
+                <div class="search-results">
+                    <h5 class="searching-for-books-header"></h5>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="wishlist-books-section">
+            <h2>Books to Read</h2>
+
+            <div class="wishlist-books-list">
+                
+            </div>
+        </section>
+
+        <section class="completed-books-section">
+            <h2>Books Completed</h2>
+
+            <div class="completed-books-list">
+                
+            </div>
+        </section>
+    </div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Main JS -->
+    <script src="./main.js"></script>
+</body>
+</html>

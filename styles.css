@@ -1,0 +1,117 @@
+/* general styles */
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #daded4;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color: #fff;
+    background-color: #39603d;
+}
+header h1 {
+    font-weight: 700;
+}
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+/* app styles */
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem auto;
+    padding: 1.5rem 1rem;
+    width: 80%;
+    background-color: #3C403D;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+.app-container section {
+    margin: 1rem;
+    width: 400px;
+}
+
+/* card styles */
+.app-container .card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 1rem auto;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+
+}
+.app-container .card button {
+    background-color: #39603d;
+}
+.app-container .card button:hover {
+    filter: brightness(110%);
+}
+.app-container .card button#add-to-completed-books-btn {
+    margin-left: 1rem;
+}
+
+/* search section styles */
+.app-container .search-section div.search-bar {
+    height: 50px;
+    margin-left: 0;
+}
+.app-container .search-section div.search-bar input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+.app-container .search-section div.search-bar button {
+    background-color: #39603d;
+    border: none;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+.app-container .search-section div.search-bar button:hover {
+    filter: brightness(110%);
+}
+.app-container .search-section .search-results-container {
+    border-radius: 5px;
+    margin: 1rem 0;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+.app-container .search-section .search-results-container h4 {
+    padding: 1rem .5rem;
+    color: #39603d;
+    border-bottom: 2px solid #39603d;
+}
+.app-container .search-section .search-results-container .search-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* wishlist books section styles */
+.app-container .wishlist-books-section .wishlist-books-list {
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
+.app-container .wishlist-books-section .wishlist-books-list button#add-to-completed-books-btn {
+    margin-left: 0;
+}
+
+/* completed books section styles */
+.app-container .completed-books-section .completed-books-list {
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    background-color: #fff;
+    box-shadow: rgb(0 0 0 / 7%) 0px 1px 1px, rgb(0 0 0 / 7%) 0px 2px 2px, rgb(0 0 0 / 7%) 0px 4px 4px, rgb(0 0 0 / 7%) 0px 8px 8px, rgb(0 0 0 / 7%) 0px 16px 16px;
+}
